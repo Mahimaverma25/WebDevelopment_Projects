@@ -1,0 +1,127 @@
+/* General reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+  /* Body styling */
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  padding: 20px;
+}
+  
+  /* Container for form */
+#overlay {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+  
+  /* Logo styling */
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: auto;
+}
+  
+  /* Heading */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  font-size: 2em;
+}
+  
+  /* Section styling */
+section {
+  margin-bottom: 15px;
+}
+  
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #555;
+}
+  
+  /* Input and select styling */
+input[type="text"], input[type="number"], input[type="range"], input[type="radio"], input[type="checkbox"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-top: 5px;
+  }
+  
+  /* Range slider style */
+input[type="range"] {
+  width: 80%;
+  margin: 10px 0;
+}
+  
+  /* Checkbox and radio buttons layout */
+input[type="checkbox"], input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+  
+  /* Toppings section layout */
+.toppings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+  
+.toppings label {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 1em;
+}
+  
+  /* Textarea styling */
+textarea {
+  resize: none;
+  font-family: 'Rubik', sans-serif;
+}
+  
+  /* Submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+  
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+  
+  /* Horizontal rule */
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+  
+  /* Section with optional extra-info styling */
+.extra-info textarea {
+  width: 100%;
+  height: 100px;
+}
+  
